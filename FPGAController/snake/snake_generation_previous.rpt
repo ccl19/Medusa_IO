@@ -1,0 +1,268 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\micha\Desktop\Medusa_IO\FPGAController\snake.qsys --block-symbol-file --output-directory=C:\Users\micha\Desktop\Medusa_IO\FPGAController\snake --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading FPGAController/snake.qsys
+Progress: Reading input file
+Progress: Adding acc_timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module acc_timer
+Progress: Adding accelerometer_spi [altera_up_avalon_accelerometer_spi 18.0]
+Progress: Parameterizing module accelerometer_spi
+Progress: Adding altpll [altpll 18.1]
+Progress: Parameterizing module altpll
+Progress: Adding button [altera_avalon_pio 18.1]
+Progress: Parameterizing module button
+Progress: Adding clk [clock_source 18.1]
+Progress: Parameterizing module clk
+Progress: Adding cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu
+Progress: Adding hardware_clocks [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_clocks
+Progress: Adding hardware_in_x [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_in_x
+Progress: Adding hardware_in_y [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_in_y
+Progress: Adding hardware_in_z [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_in_z
+Progress: Adding hardware_out_x [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_out_x
+Progress: Adding hardware_out_y [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_out_y
+Progress: Adding hardware_out_z [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_out_z
+Progress: Adding hex0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex0
+Progress: Adding hex1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex1
+Progress: Adding hex2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex2
+Progress: Adding hex3 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex3
+Progress: Adding hex4 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex4
+Progress: Adding hex5 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex5
+Progress: Adding hex_timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module hex_timer
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led [altera_avalon_pio 18.1]
+Progress: Parameterizing module led
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram
+Progress: Adding switch [altera_avalon_pio 18.1]
+Progress: Parameterizing module switch
+Progress: Adding sysid [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid
+Progress: Adding timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer
+Progress: Adding timer0 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer0
+Progress: Adding timer1 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer1
+Progress: Adding timer3 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer3
+Progress: Adding timer4 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer4
+Progress: Adding timestamp_timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module timestamp_timer
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: snake.button: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: snake.hardware_in_x: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: snake.hardware_in_y: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: snake.hardware_in_z: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: snake.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: snake.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: snake.switch: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: snake.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: snake.sysid: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\micha\Desktop\Medusa_IO\FPGAController\snake.qsys --synthesis=VERILOG --output-directory=C:\Users\micha\Desktop\Medusa_IO\FPGAController\snake\synthesis --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading FPGAController/snake.qsys
+Progress: Reading input file
+Progress: Adding acc_timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module acc_timer
+Progress: Adding accelerometer_spi [altera_up_avalon_accelerometer_spi 18.0]
+Progress: Parameterizing module accelerometer_spi
+Progress: Adding altpll [altpll 18.1]
+Progress: Parameterizing module altpll
+Progress: Adding button [altera_avalon_pio 18.1]
+Progress: Parameterizing module button
+Progress: Adding clk [clock_source 18.1]
+Progress: Parameterizing module clk
+Progress: Adding cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu
+Progress: Adding hardware_clocks [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_clocks
+Progress: Adding hardware_in_x [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_in_x
+Progress: Adding hardware_in_y [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_in_y
+Progress: Adding hardware_in_z [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_in_z
+Progress: Adding hardware_out_x [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_out_x
+Progress: Adding hardware_out_y [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_out_y
+Progress: Adding hardware_out_z [altera_avalon_pio 18.1]
+Progress: Parameterizing module hardware_out_z
+Progress: Adding hex0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex0
+Progress: Adding hex1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex1
+Progress: Adding hex2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex2
+Progress: Adding hex3 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex3
+Progress: Adding hex4 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex4
+Progress: Adding hex5 [altera_avalon_pio 18.1]
+Progress: Parameterizing module hex5
+Progress: Adding hex_timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module hex_timer
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led [altera_avalon_pio 18.1]
+Progress: Parameterizing module led
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram
+Progress: Adding switch [altera_avalon_pio 18.1]
+Progress: Parameterizing module switch
+Progress: Adding sysid [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid
+Progress: Adding timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer
+Progress: Adding timer0 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer0
+Progress: Adding timer1 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer1
+Progress: Adding timer3 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer3
+Progress: Adding timer4 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer4
+Progress: Adding timestamp_timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module timestamp_timer
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: snake.button: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: snake.hardware_in_x: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: snake.hardware_in_y: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: snake.hardware_in_z: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: snake.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: snake.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: snake.switch: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: snake.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: snake.sysid: Time stamp will be automatically updated when this component is generated.
+Info: snake: Generating snake "snake" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src4 and cmd_mux_004.sink0
+Info: Inserting clock-crossing logic between rsp_demux_004.src0 and rsp_mux.sink4
+Info: acc_timer: Starting RTL generation for module 'snake_acc_timer'
+Info: acc_timer:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=snake_acc_timer --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0002_acc_timer_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0002_acc_timer_gen//snake_acc_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: acc_timer: Done RTL generation for module 'snake_acc_timer'
+Info: acc_timer: "snake" instantiated altera_avalon_timer "acc_timer"
+Info: accelerometer_spi: Starting Generation of the Accelerometer Controller in SPI mode
+Info: accelerometer_spi: "snake" instantiated altera_up_avalon_accelerometer_spi "accelerometer_spi"
+Info: altpll: "snake" instantiated altpll "altpll"
+Info: button: Starting RTL generation for module 'snake_button'
+Info: button:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_button --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0006_button_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0006_button_gen//snake_button_component_configuration.pl  --do_build_sim=0  ]
+Info: button: Done RTL generation for module 'snake_button'
+Info: button: "snake" instantiated altera_avalon_pio "button"
+Info: cpu: "snake" instantiated altera_nios2_gen2 "cpu"
+Info: hardware_clocks: Starting RTL generation for module 'snake_hardware_clocks'
+Info: hardware_clocks:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_hardware_clocks --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0007_hardware_clocks_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0007_hardware_clocks_gen//snake_hardware_clocks_component_configuration.pl  --do_build_sim=0  ]
+Info: hardware_clocks: Done RTL generation for module 'snake_hardware_clocks'
+Info: hardware_clocks: "snake" instantiated altera_avalon_pio "hardware_clocks"
+Info: hardware_in_x: Starting RTL generation for module 'snake_hardware_in_x'
+Info: hardware_in_x:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_hardware_in_x --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0008_hardware_in_x_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0008_hardware_in_x_gen//snake_hardware_in_x_component_configuration.pl  --do_build_sim=0  ]
+Info: hardware_in_x: Done RTL generation for module 'snake_hardware_in_x'
+Info: hardware_in_x: "snake" instantiated altera_avalon_pio "hardware_in_x"
+Info: hardware_out_x: Starting RTL generation for module 'snake_hardware_out_x'
+Info: hardware_out_x:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_hardware_out_x --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0009_hardware_out_x_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0009_hardware_out_x_gen//snake_hardware_out_x_component_configuration.pl  --do_build_sim=0  ]
+Info: hardware_out_x: Done RTL generation for module 'snake_hardware_out_x'
+Info: hardware_out_x: "snake" instantiated altera_avalon_pio "hardware_out_x"
+Info: hex0: Starting RTL generation for module 'snake_hex0'
+Info: hex0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_hex0 --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0010_hex0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0010_hex0_gen//snake_hex0_component_configuration.pl  --do_build_sim=0  ]
+Info: hex0: Done RTL generation for module 'snake_hex0'
+Info: hex0: "snake" instantiated altera_avalon_pio "hex0"
+Info: hex1: Starting RTL generation for module 'snake_hex1'
+Info: hex1:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_hex1 --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0011_hex1_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0011_hex1_gen//snake_hex1_component_configuration.pl  --do_build_sim=0  ]
+Info: hex1: Done RTL generation for module 'snake_hex1'
+Info: hex1: "snake" instantiated altera_avalon_pio "hex1"
+Info: hex2: Starting RTL generation for module 'snake_hex2'
+Info: hex2:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_hex2 --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0012_hex2_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0012_hex2_gen//snake_hex2_component_configuration.pl  --do_build_sim=0  ]
+Info: hex2: Done RTL generation for module 'snake_hex2'
+Info: hex2: "snake" instantiated altera_avalon_pio "hex2"
+Info: hex3: Starting RTL generation for module 'snake_hex3'
+Info: hex3:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_hex3 --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0013_hex3_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0013_hex3_gen//snake_hex3_component_configuration.pl  --do_build_sim=0  ]
+Info: hex3: Done RTL generation for module 'snake_hex3'
+Info: hex3: "snake" instantiated altera_avalon_pio "hex3"
+Info: hex4: Starting RTL generation for module 'snake_hex4'
+Info: hex4:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_hex4 --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0014_hex4_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0014_hex4_gen//snake_hex4_component_configuration.pl  --do_build_sim=0  ]
+Info: hex4: Done RTL generation for module 'snake_hex4'
+Info: hex4: "snake" instantiated altera_avalon_pio "hex4"
+Info: hex5: Starting RTL generation for module 'snake_hex5'
+Info: hex5:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_hex5 --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0015_hex5_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0015_hex5_gen//snake_hex5_component_configuration.pl  --do_build_sim=0  ]
+Info: hex5: Done RTL generation for module 'snake_hex5'
+Info: hex5: "snake" instantiated altera_avalon_pio "hex5"
+Info: jtag_uart: Starting RTL generation for module 'snake_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=snake_jtag_uart --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0016_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0016_jtag_uart_gen//snake_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'snake_jtag_uart'
+Info: jtag_uart: "snake" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: led: Starting RTL generation for module 'snake_led'
+Info: led:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_led --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0017_led_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0017_led_gen//snake_led_component_configuration.pl  --do_build_sim=0  ]
+Info: led: Done RTL generation for module 'snake_led'
+Info: led: "snake" instantiated altera_avalon_pio "led"
+Info: sdram: Starting RTL generation for module 'snake_sdram'
+Info: sdram:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=snake_sdram --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0018_sdram_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0018_sdram_gen//snake_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'snake_sdram'
+Info: sdram: "snake" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: switch: Starting RTL generation for module 'snake_switch'
+Info: switch:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=snake_switch --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0019_switch_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0019_switch_gen//snake_switch_component_configuration.pl  --do_build_sim=0  ]
+Info: switch: Done RTL generation for module 'snake_switch'
+Info: switch: "snake" instantiated altera_avalon_pio "switch"
+Info: sysid: "snake" instantiated altera_avalon_sysid_qsys "sysid"
+Info: timer3: Starting RTL generation for module 'snake_timer3'
+Info: timer3:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=snake_timer3 --dir=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0021_timer3_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/micha/AppData/Local/Temp/alt9070_6184414452338714598.dir/0021_timer3_gen//snake_timer3_component_configuration.pl  --do_build_sim=0  ]
+Info: timer3: Done RTL generation for module 'snake_timer3'
+Info: timer3: "snake" instantiated altera_avalon_timer "timer3"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_016: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_017: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_018: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_019: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_020: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_021: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_022: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_023: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_024: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_025: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_026: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_027: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_028: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_029: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "snake" instantiated altera_mm_interconnect "mm_interconnect_0"
+Error: Generation stopped, 234 or more modules remaining
+Info: snake: Done "snake" with 50 modules, 26 files
+Error: qsys-generate failed with exit code 1: 1 Error, 0 Warnings
+Info: Stopping: Create HDL design files for synthesis
